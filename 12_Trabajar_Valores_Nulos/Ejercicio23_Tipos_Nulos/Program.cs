@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        int? numero = null;
+
+        int resultado = numero ?? 23;
+
+        Console.WriteLine($"El valor es: {resultado}");
+    }
+}
